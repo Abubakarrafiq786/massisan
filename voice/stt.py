@@ -15,7 +15,7 @@ class SpeechRecognizer:
         self.vad = webrtcvad.Vad(2) # 0 to 3. 3 is most aggressive at filtering out silence.
         log.info("Whisper and VAD models loaded successfully.")
 
-    def record_and_transcribe(self, filename="temp_audio.wav") -> str:
+    def record_and_transcribe(self, filename="temp_audio.wav", language: str | None = None) -> str:
         sample_rate = 16000
         frame_duration = 30 # 30ms chunks is standard for WebRTC VAD
         frame_size = int(sample_rate * frame_duration / 1000) # 480 samples
@@ -33,7 +33,7 @@ class SpeechRecognizer:
         try:
             while True:
                 # Read a 30ms chunk of audio
-                chunk, overflowed = stream.read(frame_size)
+                chunk, _ = stream.read(frame_size)
                 chunk_bytes = chunk.tobytes()
                 
                 # Check if this chunk has voice
@@ -62,7 +62,7 @@ class SpeechRecognizer:
         write(filename, sample_rate, final_audio)
         
         log.info("Transcribing...")
-        segments, info = self.model.transcribe(filename, beam_size=5)
+        segments, _ = self.model.transcribe(filename, beam_size=5, language=language)
         transcript = " ".join([segment.text for segment in segments])
         
         if os.path.exists(filename):

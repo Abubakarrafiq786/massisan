@@ -62,3 +62,257 @@ TypeError: open() got an unexpected keyword argument 'metadata_errors'
 2026-11-05 07:05:20 | INFO     | __main__ | Whisper model loaded successfully.
 2026-11-05 07:05:23 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
 2026-11-05 07:05:29 | INFO     | api.main | Received prompt: Hello, Jarvis
+2026-11-05 07:09:16 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:09:18 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:09:20 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:09:28 | INFO     | api.main | Received prompt: Hello Jarvis, how are you buddy?
+2026-11-05 07:17:58 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:18:23 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:18:24 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:18:29 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:18:41 | INFO     | api.main | Received prompt: Hello, everybody. What's going on, bro?
+2026-11-05 07:20:02 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:20:04 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:20:28 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:20:30 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:20:30 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:20:35 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:20:44 | INFO     | api.main | Received prompt: Hello, buddy. What's going on, bro?
+2026-11-05 07:20:47 | INFO     | voice.tts | Speaking: Hey there! It's good to hear from you. I'm just here to help with any questions or conversations you might have. Whether you need information, want to chat about a particular topic, or just need someone to talk to, feel free to let me know how I can assist you. So, what's been going on, or what would you like to talk about today?
+2026-11-05 07:20:47 | ERROR    | voice.tts | TTS Error: Command '['piper', '--model', 'models/en_US-lessac-medium.onnx', '--output_file', 'output.wav']' returned non-zero exit status 1.
+2026-11-05 07:22:46 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:22:48 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:22:48 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:22:50 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:22:58 | INFO     | api.main | Received prompt: Hello buddy, what's going on bro?
+2026-11-05 07:22:59 | INFO     | voice.tts | Speaking: Hey there! It's nice to meet you. I'm here to help with any questions or information you might need. What's going on, or is there something specific you'd like to talk about or learn more about?
+2026-11-05 07:22:59 | ERROR    | voice.tts | TTS Error: Command '['piper', '--model', 'models/en_US-lessac-medium.onnx', '--output_file', 'output.wav']' returned non-zero exit status 1.
+2026-11-05 07:25:04 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:25:04 | INFO     | voice.tts | Speaking: This is a short test of Jarvis speech.
+2026-11-05 07:25:27 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:25:29 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:25:29 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:25:31 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:25:39 | INFO     | api.main | Received prompt: Hey, do you speak with me?
+2026-11-05 07:25:40 | INFO     | voice.tts | Speaking: Of course! I'm here and ready to help you. Do you have any specific questions or topics you'd like to discuss?
+2026-11-05 07:25:53 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:26:03 | INFO     | api.main | Received prompt: Yes, do you want to join a YouTube please for me?
+2026-11-05 07:26:05 | INFO     | voice.tts | Speaking: I'm sorry for any confusion, but as an AI assistant from Alibaba Cloud, I don't have the capability to directly join or manage YouTube accounts or channels. However, I can certainly help you with advice on how to start or manage a YouTube channel! What specific aspects of YouTube management or content creation are you interested in?
+2026-11-05 07:26:28 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:26:45 | INFO     | api.main | Received prompt: Sorry to say but I want to ask about the learning purpose so I want to learn a DSA tutorial  Do you want to suggest me on some channels regarding to these things?
+2026-11-05 07:26:56 | INFO     | voice.tts | Speaking: Of course! Learning Data Structures and Algorithms (DSA) is a great choice for improving your problem-solving skills and preparing for technical interviews. Here are some popular channels and resources you might find helpful:
+
+1. **YouTube Channels:**
+   - **Timothy Hui (HuiTim):** Known for clear explanations and practical examples.
+   - **Aditya Bhargava:** Provides in-depth tutorials and real-life use cases.
+   - **Socratica:** Offers concise and well-explained video tutorials.
+   - **NeetCode:** Popular for his clear and concise coding tutorials, including DSA.
+   - **Eduonix Tech:** Provides comprehensive tutorials on various programming topics, including DSA.
+
+2. **Online Courses:**
+   - **Coursera:** Offers courses like "Algorithmic Toolbox" from the University of California, San Diego.
+   - **edX:** Provides courses from institutions like MIT, Harvard, and others.
+   - ** Udemy:** Has numerous courses on DSA, some of them are free or on sale.
+   - **LeetCode:** While not a video tutorial, it offers a lot of practice problems and articles that can help you learn DSA.
+
+3. **Websites and Blogs:**
+   - **GeeksforGeeks:** A very comprehensive site with articles, tutorials, and practice problems.
+   - **HackerRank:** Offers coding challenges and tutorials.
+   - **LeetCode:** Great for practice and contains a lot of resources for learning DSA.
+   - **LeetCode Blog:** Contains articles, tutorials, and tips on DSA.
+
+4. **Books:**
+   - "Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein (often referred to as CLRS).
+   - "Algorithms" by Robert Sedgewick and Kevin Wayne.
+   - "Cracking the Coding Interview" by Gayle Laakmann McDowell.
+
+5. **Podcasts and YouTube Series:**
+   - "The Algorithm Podcast" and "The Data Structures Show" can provide a good mix of learning and entertainment.
+
+Each of these resources has its own strengths, so you might want to explore a few to find what works best for you. Happy learning!
+2026-11-05 07:31:17 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:31:19 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:31:19 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:31:21 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:31:31 | INFO     | api.main | Received prompt: अपकी क्या लाया क्या भूँ सो तो तो उल सकते हो
+2026-11-05 07:31:37 | INFO     | voice.tts | Speaking: आपका व्यंजनिक भाषण संदर्भ स्थापित नहीं कर पाया। लेकिन अगर आप एक विशेष सवाल या बात बताना चाहते हैं, तो मैं उसे स्पष्ट बनाने की कोशिश करूँगा और आवश्यक समय तक उत्तर देने की तैयारी करूँगा। कृपया अपने वाक्य को और भी स्पष्ट बनाएं या नई प्रश्न बनाएं ताकि मैं आपकी मदद कर सकूँ।
+2026-11-05 07:31:41 | ERROR    | voice.tts | TTS Error: Command '['piper', '--model', 'models/en_US-lessac-medium.onnx', '--output_file', 'output.wav']' returned non-zero exit status 1.
+2026-11-05 07:35:32 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:36:09 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:36:18 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:36:18 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:36:52 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:36:55 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:37:18 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:37:22 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:38:56 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:38:58 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:38:58 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:39:08 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:39:17 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:39:24 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:39:25 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:39:25 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:39:34 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:36 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:38 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:39 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:42 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:43 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:46 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:47 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:48 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:49 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:50 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:56 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:58 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:39:59 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:40:01 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:40:05 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:41:29 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:41:34 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:41:35 | INFO     | ui.app | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:41:36 | INFO     | ui.app | Whisper model loaded successfully.
+2026-11-05 07:41:57 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:42:06 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:42:12 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:42:16 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:42:38 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:42:39 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:42:39 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:42:44 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:42:50 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:42:59 | INFO     | api.main | Received prompt: अरो क्या लापके
+2026-11-05 07:43:15 | INFO     | voice.tts | Speaking response in en
+2026-11-05 07:43:19 | ERROR    | __main__ | Could not speak the response
+Traceback (most recent call last):
+  File "D:\massisan\voice\tts.py", line 52, in speak
+    subprocess.run(
+    ~~~~~~~~~~~~~~^
+        command,
+        ^^^^^^^^
+    ...<2 lines>...
+        capture_output=True,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['piper', '--model', 'D:\\massisan\\models\\en_US-lessac-medium.onnx', '--output_file', 'D:\\massisan\\output.wav']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\massisan\ui\app.py", line 395, in on_response_received
+    self.tts.speak(response_text, language=language)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\massisan\voice\tts.py", line 63, in speak
+    raise RuntimeError(f"Piper could not synthesize speech: {detail}") from exc
+RuntimeError: Piper could not synthesize speech: Traceback (most recent call last):
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\piper\__main__.py", line 252, in main
+    lines_to_wav()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\piper\__main__.py", line 172, in lines_to_wav
+    for i, audio_chunk in enumerate(voice.synthesize(line, syn_config)):
+                          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\piper\voice.py", line 349, in synthesize
+    sentence_phonemes = self.phonemize(text)
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\piper\voice.py", line 297, in phonemize
+    text_part_phonemes = _ESPEAK_PHONEMIZER.phonemize(
+        self.config.espeak_voice,
+        text_part,
+        vowel_clusters=self.config.vowel_clusters,
+    )
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\piper\phonemize_espeak.py", line 36, in phonemize
+    clause_phonemes = espeakbridge.get_phonemes(text)
+UnicodeEncodeError: 'utf-8' codec can't encode character '\udc8d' in position 29: surrogates not allowed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Scripts\piper.exe\__main__.py", line 5, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\piper\__main__.py", line 251, in main
+    with wav_file:
+         ^^^^^^^^
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\wave.py", line 477, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\wave.py", line 595, in close
+    self._ensure_header_written(0)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\wave.py", line 613, in _ensure_header_written
+    raise Error('# channels not specified')
+wave.Error: # channels not specified
+2026-11-05 07:43:31 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:43:38 | INFO     | api.main | Received prompt: Reply in natural Urdu using Urdu script. Keep your answer concise.
+
+User: کیا لے آپ کے ٹیقوہ؟
+2026-11-05 07:43:39 | ERROR    | __main__ | Could not speak the response
+Traceback (most recent call last):
+  File "D:\massisan\ui\app.py", line 395, in on_response_received
+    self.tts.speak(response_text, language=language)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\massisan\voice\tts.py", line 34, in speak
+    raise FileNotFoundError(
+    ...<5 lines>...
+    )
+FileNotFoundError: Urdu Piper voice model is missing: D:\massisan\models\ur_PK-fasih-medium.onnx. Download model.onnx and config.json from https://huggingface.co/Keshavji/piper-ur_PK-fasih-medium and save them as models/ur_PK-fasih-medium.onnx and models/ur_PK-fasih-medium.onnx.json.
+2026-11-05 07:45:11 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:45:13 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:45:13 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:45:23 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:45:30 | INFO     | api.main | Received prompt: Reply in natural Urdu using Urdu script. Keep your answer concise.
+
+User: کیا ہے لے آپ کے؟  اسلام علیکم
+2026-11-05 07:45:31 | ERROR    | __main__ | Could not speak the response
+Traceback (most recent call last):
+  File "D:\massisan\ui\app.py", line 395, in on_response_received
+    self.tts.speak(response_text, language=language)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\massisan\voice\tts.py", line 34, in speak
+    raise FileNotFoundError(
+    ...<5 lines>...
+    )
+FileNotFoundError: Urdu Piper voice model is missing: D:\massisan\models\ur_PK-fasih-medium.onnx. Download model.onnx and config.json from https://huggingface.co/Keshavji/piper-ur_PK-fasih-medium and save them as models/ur_PK-fasih-medium.onnx and models/ur_PK-fasih-medium.onnx.json.
+2026-11-05 07:46:09 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:46:14 | INFO     | api.main | Received prompt: How are you, Bill?
+2026-11-05 07:46:16 | INFO     | voice.tts | Speaking response in en
+2026-11-05 07:49:20 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:49:30 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:49:31 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:49:49 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:49:51 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:49:51 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:50:03 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:50:09 | INFO     | api.main | Received prompt: Reply in natural Urdu using Urdu script. Keep your answer concise.
+
+User: کیا لے دوست اسلام علیکم
+2026-11-05 07:50:10 | INFO     | voice.tts | Speaking response in ur
+2026-11-05 07:50:22 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:50:38 | INFO     | api.main | Received prompt: Reply in natural Urdu using Urdu script. Keep your answer concise.
+
+User: میں نے کہا کیا حال ہے آپ کے
+2026-11-05 07:50:39 | INFO     | voice.tts | Speaking response in ur
+2026-11-05 07:52:41 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:52:47 | INFO     | api.main | Received prompt: Hello, everybody. How are you?
+2026-11-05 07:52:49 | INFO     | voice.tts | Speaking response in en
+2026-11-05 07:52:53 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:53:02 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:54:01 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:54:07 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:54:40 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:54:50 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:55:23 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:55:25 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:55:25 | INFO     | voice.tts | TTS Engine initialized.
+2026-11-05 07:55:35 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:55:43 | INFO     | api.main | Received prompt: کیا آنے بڑی؟
+2026-11-05 07:55:44 | INFO     | voice.tts | Speaking response in ur
+2026-11-05 07:56:00 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:56:06 | INFO     | api.main | Received prompt: Hello, how are you?
+2026-11-05 07:56:07 | INFO     | voice.tts | Speaking response in en
