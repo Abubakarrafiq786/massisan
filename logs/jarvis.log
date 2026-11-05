@@ -40,3 +40,25 @@
 2026-11-05 06:55:39 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
 2026-11-05 06:55:42 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
 2026-11-05 06:55:48 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 07:01:05 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:02:33 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 07:03:08 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:03:09 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:03:12 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:03:16 | ERROR    | __main__ | Audio recording or transcription failed
+Traceback (most recent call last):
+  File "D:\massisan\ui\app.py", line 281, in run
+    segments, info = WHISPER_MODEL.transcribe("temp_audio.wav", beam_size=5)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\faster_whisper\transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\ABUBAKAR\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 07:05:18 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 07:05:20 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 07:05:23 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 07:05:29 | INFO     | api.main | Received prompt: Hello, Jarvis

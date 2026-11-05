@@ -43,7 +43,7 @@ class AIWorker(QThread):
             self.response_ready.emit(f"Connection Error: Make sure the FastAPI backend is running.\nDetails: {e}")
 
 # --- 3. Audio Recording Thread ---
-# class AudioWorker(QThread):
+class AudioWorker(QThread):
     text_ready = Signal(str)
     status_update = Signal(str)
     
@@ -118,6 +118,7 @@ class AIWorker(QThread):
 class AudioWorker(QThread):
     text_ready = Signal(str)
     status_update = Signal(str)
+    error_ready = Signal(str)
     
     def run(self):
         try:
@@ -286,8 +287,8 @@ class AudioWorker(QThread):
             self.text_ready.emit(transcript.strip())
             
         except Exception as e:
-            log.error(f"Audio error: {e}")
-            self.text_ready.emit("")
+            log.exception("Audio recording or transcription failed")
+            self.error_ready.emit(str(e))
 # --- 4. Visual Overlay ---
 class RecorderOverlay(QDialog):
     def __init__(self, parent=None):
@@ -424,7 +425,14 @@ class JarvisWindow(QMainWindow):
         self.audio_worker = AudioWorker()
         self.audio_worker.status_update.connect(self.overlay.update_status)
         self.audio_worker.text_ready.connect(self.on_audio_transcribed)
+        self.audio_worker.error_ready.connect(self.on_audio_error)
         self.audio_worker.start()
+
+    def on_audio_error(self, error):
+        QTimer.singleShot(500, self.overlay.close)
+        self.mic_btn.setEnabled(True)
+        self.mic_btn.setText("🎤")
+        self.append_message("System", f"Audio error: {error}")
 
     def on_audio_transcribed(self, text):
         QTimer.singleShot(500, self.overlay.close)
