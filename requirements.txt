@@ -8,6 +8,8 @@ pytest-asyncio
 fastapi
 uvicorn
 httpx
+# faster-whisper uses av.open(metadata_errors=...), which PyAV 19 rejects.
+av<19
 
 # python -m venv venv
 # # Windows:
