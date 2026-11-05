@@ -1,0 +1,42 @@
+2026-11-05 03:42:35 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 03:44:37 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 04:01:02 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 05:27:45 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 05:27:57 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 05:28:47 | INFO     | api.main | Received prompt: hello buddy
+2026-11-05 05:29:19 | INFO     | api.main | Received prompt: kiya hall hai dost
+2026-11-05 05:39:38 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 05:40:43 | INFO     | api.main | Received prompt: hello buddy how are you connected
+2026-11-05 05:46:38 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 05:49:23 | INFO     | voice.stt | Loading Whisper model 'small' on cpu...
+2026-11-05 05:50:01 | INFO     | api.main | Received prompt: fgjf
+2026-11-05 05:53:38 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 05:54:13 | INFO     | voice.stt | Loading Whisper model 'small' on cpu...
+2026-11-05 05:58:01 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 06:02:10 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 06:05:00 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 06:06:08 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 06:06:22 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 06:06:24 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 06:06:34 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 06:10:11 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 06:10:52 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 06:11:13 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 06:11:15 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 06:11:17 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 06:11:39 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 06:11:44 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 06:12:06 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 06:45:47 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 06:47:10 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 06:47:44 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 06:47:46 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 06:47:51 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 06:48:00 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 06:54:38 | INFO     | database.models | PostgreSQL database initialized successfully.
+2026-11-05 06:55:33 | INFO     | __main__ | Initializing Whisper model... This might take a moment on startup.
+2026-11-05 06:55:34 | INFO     | __main__ | Whisper model loaded successfully.
+2026-11-05 06:55:37 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 06:55:39 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'
+2026-11-05 06:55:42 | INFO     | __main__ | Listening to Microphone: Microphone (USB Audio Device)
+2026-11-05 06:55:48 | ERROR    | __main__ | Audio error: open() got an unexpected keyword argument 'metadata_errors'

@@ -1,0 +1,19 @@
+pydantic
+pydantic-settings
+pyyaml
+sqlalchemy
+psycopg2-binary
+pytest
+pytest-asyncio
+fastapi
+uvicorn
+httpx
+
+# python -m venv venv
+# # Windows:
+# venv\Scripts\activate
+# # Linux/Mac:
+# source venv/bin/activate
+
+# pip install --upgrade pip
+# pip install -r requirements.txt
